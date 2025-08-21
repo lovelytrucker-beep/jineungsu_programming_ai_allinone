@@ -1,0 +1,21 @@
+# 가상환경/캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# 로그/빌드/임시
+*.log
+dist/
+build/
+installer/Output/
+
+# 환경변수/비밀키
+.env
+*.env
+.streamlit/secrets.toml
